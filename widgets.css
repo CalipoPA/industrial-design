@@ -1,0 +1,195 @@
+.grid-area-widgets {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+    grid-template-areas: "about"
+                         "projects";
+}
+
+
+.grid-area-widgets .about {
+    min-height: 850px;
+    background-color: #fff;
+}
+
+
+.about .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+    font-size: 72px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.about .body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    padding-right: 35%;
+    padding-left: 35%;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.about .button-about {
+    color: white;
+    background-color: black;
+    padding: 20px 50px;
+    border: none;
+    font-weight: bold;
+}
+
+
+.about .button-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 35%;
+    padding-left: 35%;
+
+}
+
+.about .button-about:hover {
+    background-color: rgb(51, 49, 49);
+}
+
+
+.about .link {
+    text-decoration: none;
+    color: white;
+}
+
+
+.about .link:hover {
+    color: white;
+
+}
+
+.grid-area-widgets .projects {
+    background-color: #000000;
+    min-height: 970px; 
+}
+
+.projects .title-projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 72px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+.projects .widgets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.texto {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.item {
+    text-align: center;
+}
+
+@media (max-width: 428px) {
+    .projects .title-projects {
+      font-size: 40px;
+    }
+}
+
+
+
+@media (max-width: 1770px) {
+    .projects .widgets {
+       flex-direction: column;
+    }
+}
+
+@media (max-width: 1770px) {
+    .about .title {
+       font-size: 60px;
+    }
+}
+
+
+@media (max-width: 1470px) {
+    .about .title {
+       font-size: 50px;
+    }
+}
+
+@media (max-width: 1224px) {
+    .about .title {
+       padding-right: 25%;
+       padding-left: 25%;
+    }
+}
+
+
+@media (max-width: 736px) {
+    .about .title {
+       padding-right: 10%;
+       padding-left: 10%;
+    }
+}
+
+@media (max-width: 460px) {
+    .about .title {
+       padding-right: 5%;
+       padding-left: 5%;
+       font-size: 40px;
+    }
+}
+
+@media (max-width: 690px) {
+    .about .body {
+       padding-right: 5%;
+       padding-left: 5%;
+    }
+}
+
+
+@media (max-width: 429px) {
+    .grid-area-widgets .about {
+       min-height: 500px;
+    }
+}
+
+
+@media (max-width: 606px) {
+    .about .button-div {
+       padding-right: 5%;
+       padding-left: 5%;
+    }
+}
+
+
+@media (max-width: 606px) {
+    .about .button-about {
+       padding-right: 5%;
+       padding-left: 5%;
+       border-radius: 24px;
+       padding: 10px 40px;
+    }
+}

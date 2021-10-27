@@ -30,7 +30,7 @@ body {
     align-items: center;
 }
 
-.bloque-2:hover {
+.font:hover {
     text-decoration: underline;
     color: white;
 }

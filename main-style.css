@@ -12,9 +12,7 @@
     grid-row-start: 1;
     grid-row-end: auto;
     text-align: center;
-    /* padding-top: 20rem;
-    padding-bottom: 25rem; */
-    min-height: 856px;
+    min-height: 100vh;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }

@@ -13,18 +13,17 @@
 }
 
 
-.about .title {
+.title {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 15%;
     font-size: 72px;
     color: black;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
 
-.about .body {
+.body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -127,20 +126,20 @@
 }
 
 @media (max-width: 1770px) {
-    .about .title {
+    .title {
        font-size: 60px;
     }
 }
 
 
 @media (max-width: 1470px) {
-    .about .title {
+    .title {
        font-size: 50px;
     }
 }
 
 @media (max-width: 1224px) {
-    .about .title {
+    .title {
        padding-right: 25%;
        padding-left: 25%;
     }
@@ -148,14 +147,14 @@
 
 
 @media (max-width: 736px) {
-    .about .title {
+    .title {
        padding-right: 10%;
        padding-left: 10%;
     }
 }
 
 @media (max-width: 460px) {
-    .about .title {
+    .title {
        padding-right: 5%;
        padding-left: 5%;
        font-size: 40px;
@@ -163,7 +162,7 @@
 }
 
 @media (max-width: 690px) {
-    .about .body {
+    .body {
        padding-right: 5%;
        padding-left: 5%;
     }

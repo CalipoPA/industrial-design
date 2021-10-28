@@ -1,0 +1,49 @@
+.careers {
+    min-height: 970px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(static/careers.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-color: #fff;
+    background-position: center center;
+
+}
+
+.careers .body {
+    text-align: left;
+    padding-right: 25%;
+    padding-left: 32%;
+}
+
+
+.align {
+    padding-left: 35rem;
+}
+
+@media (max-width: 810px) {
+    .careers {
+        min-height: 500px;
+    }
+
+    .careers .body {
+        padding-right: 5%;
+        padding-left: 5% !important; 
+        text-align: center;
+    }
+
+    .careers.title {
+        padding-left: 0 !important;
+    }
+
+    .align {
+        padding-left: 0 ;
+    }
+
+    .careers .body {
+        padding-left: 0 ;
+    }
+}
+

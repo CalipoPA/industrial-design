@@ -33,10 +33,11 @@
 .h1-font {
     font-size: 104px;
     padding-top: 250px;
+    margin-bottom: 50px;
 }
 
 .fondo {
-    background-image: url(static/fondo.jpg);
+    background-image: url(static/fondo.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: scroll;

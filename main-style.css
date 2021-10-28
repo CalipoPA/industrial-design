@@ -1,3 +1,10 @@
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+}
+
 .grid-main {
     color: white;
     display: grid;
@@ -31,7 +38,7 @@
 }
 
 .h1-font {
-    font-size: 104px;
+    font-size: 94px;
     padding-top: 250px;
     margin-bottom: 50px;
 }

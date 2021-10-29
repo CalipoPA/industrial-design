@@ -5,6 +5,10 @@
     -ms-user-select: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .grid-main {
     color: white;
     display: grid;

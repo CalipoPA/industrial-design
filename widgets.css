@@ -2,16 +2,13 @@
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto auto;
-    grid-template-areas: "about"
-                         "projects";
+    grid-template-areas: "about" "projects";
 }
-
 
 .grid-area-widgets .about {
     min-height: 100vh;
     background-color: #fff;
 }
-
 
 .title {
     display: flex;
@@ -35,7 +32,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
 .about .button-about {
     color: white;
     background-color: black;
@@ -44,8 +40,7 @@
     font-weight: bold;
 }
 
-
-.about .button-div{
+.about .button-div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,28 +49,24 @@
     padding-top: 20px;
     padding-right: 35%;
     padding-left: 35%;
-
 }
 
 .about .button-about:hover {
     background-color: rgb(51, 49, 49);
 }
 
-
 .about .link {
     text-decoration: none;
     color: white;
 }
 
-
 .about .link:hover {
     color: white;
-
 }
 
 .grid-area-widgets .projects {
     background-color: #000000;
-    min-height: 970px; 
+    min-height: 970px;
 }
 
 .projects .title-projects {
@@ -89,9 +80,6 @@
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
-
-
-
 
 .projects .widgets {
     display: flex;
@@ -111,84 +99,90 @@
     text-align: center;
 }
 
-@media (max-width: 428px) {
+@media (max-width: 450px) {
     .projects .title-projects {
-      font-size: 40px;
+        font-size: 40px;
     }
 }
 
+@media (max-width: 428px) {
+    .projects .title-projects {
+        font-size: 40px;
+    }
+}
 
+@media (max-width: 400px) {
+    .projects .widget {
+        max-width: 100%;
+    }
+}
 
 @media (max-width: 1770px) {
     .projects .widgets {
-       flex-direction: column;
+        flex-direction: column;
     }
 }
 
 @media (max-width: 1770px) {
     .title {
-       font-size: 60px;
+        font-size: 60px;
     }
 }
 
-
 @media (max-width: 1470px) {
     .title {
-       font-size: 50px;
+        font-size: 50px;
     }
 }
 
 @media (max-width: 1224px) {
     .title {
-       padding-right: 25%;
-       padding-left: 25%;
+        padding-right: 25%;
+        padding-left: 25%;
+        text-align: center;
     }
 }
 
-
 @media (max-width: 736px) {
     .title {
-       padding-right: 10%;
-       padding-left: 10%;
+        padding-right: 10%;
+        padding-left: 10%;
     }
 }
 
 @media (max-width: 460px) {
     .title {
-       padding-right: 5%;
-       padding-left: 5%;
-       font-size: 40px;
+        padding-right: 5%;
+        padding-left: 5%;
+        font-size: 40px;
     }
 }
 
 @media (max-width: 690px) {
     .body {
-       padding-right: 5%;
-       padding-left: 5%;
+        padding-right: 5%;
+        padding-left: 5%;
     }
 }
-
 
 @media (max-width: 429px) {
     .grid-area-widgets .about {
-       min-height: 500px;
+        min-height: 500px;
     }
 }
-
 
 @media (max-width: 606px) {
     .about .button-div {
-       padding-right: 5%;
-       padding-left: 5%;
+        padding-right: 5%;
+        padding-left: 5%;
     }
 }
 
-
 @media (max-width: 606px) {
     .about .button-about {
-       padding-right: 5%;
-       padding-left: 5%;
-       border-radius: 24px;
-       padding: 10px 40px;
+        padding-right: 5%;
+        padding-left: 5%;
+        border-radius: 24px;
+        padding: 10px 40px;
     }
 }

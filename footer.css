@@ -39,3 +39,9 @@
     align-items: center;
     text-align: right;
 }
+
+@media (max-width: 800px) {
+    .footer {
+        grid-template-columns: auto;
+    }
+}
